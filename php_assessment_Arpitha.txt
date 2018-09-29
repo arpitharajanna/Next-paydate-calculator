@@ -1,0 +1,19 @@
+PHP ASSESSMENT
+Changes I would like to add in the script and the form.
+
+1. In the script we can add conditions for all the input fields.
+   For ex, if the cardholder name is missing or card number is missing, it should specify the required field is missing for the user.
+
+2. If all the fields are filled and the cvv number is missing, it should throw an error message for the user the cvv field is missing. So there should be an error message for all the input fields.
+   Also we can included a small information box for cvv field so that it gives more information for the user about entering the cvv number.
+
+3. We can add the type of card field, like discover card, american express card, visa card, bank of america etc. 
+
+4. We can check if the condtion that the cvv field should be a number. If any a=character is filled apart from number, w ecan throw an error message telling its not a valid number. 
+
+5. We can add all 12 months and years range in the input field as options and user can select from those options.
+
+6. We can also add a valid condition for card number on select of type of card as different types of card have different numbers as card number. Also we can add a conditions which checks if the card number as special characters or spaces and if the condition is true, it should throw an error message.
+
+7. For security reasons we can have an recaptcha submission everytime the user submits the form.
+
